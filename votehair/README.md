@@ -1,5 +1,5 @@
 
-# On React - information
+# On React - Information
 
 
 ### This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).

@@ -1,0 +1,99 @@
+For å løse opp i merge konflikter: Flere har endret i samme fil på samme sted.
+git add .
+git commit -m "endring"
+
+git push
+---> feilmelding
+
+---> redigere og endre i mergekonflikt filer
+git add .
+git commit
+git push
+--
+
+Undo commit - before push
+git reset HEAD~     (new head is left)
+git reset --hard HEAD~ (new head is deletet)
+
+-----------------------
+React ROUTER
+a PAGE in SPA is called VIEW
+Routing: Påse at history er riktig, Fram og tilbake fungerer som vanlige web-sider osv
+Mappe mellom URL og SPA-VIEWS
+Første component: App = Static part of SPA
+App er rammen - usynlig eller header+footer+menu etc
+
+ReactDOM.render(
+  <ReactRouter.Router history={ReactRouter.hashHistory}>
+    <ReactRouter.Route path="/" component={App}>
+	 <IndexRoute component={Home}/>
+	 
+    </ReactRouter.Route>
+  </ReactRouter.Router>,
+url "/" -> vis component={App}
+  
+
+---------
+JSX
+Babel
+linting
+WebPack - grunt
+
+https://www.tutorialspoint.com/developers_best_practices/index.htm
+------
+Sette opp React miljø:
+---------
+1: Lag en App
+---------
+opprett mappe struktur
+
+npm install -g babel-cli
+npm init
+- svar på spørsmål (ok = enter)
+
+npm install react --save
+npm install react-dom --save
+
+npm install webpack --save
+npm install webpack-dev-server --save
+
+npm install babel-core
+npm install babel-loader
+npm install babel-preset-react
+npm install babel-preset-es2016
+
+------
+npm i webpack -S
+
+---------
+2: Lag en App
+---------
+
+https://facebook.github.io/react/blog/2016/07/22/create-apps-with-no-configuration.html
+
+Stå i den mappa der prosjekt-mappa skal opprettes (hello-world)
+1: last ned filer:
+npm install -g create-react-app
+
+2: Opprett prosjekt
+create-react-app hello-world
+
+3: Gå inn i mappa og start server:
+npm start
+
+4: Browser
+http://localhost:3000
+
+---
+ECMA6 - detaljert 
+https://leanpub.com/understandinges6/read#leanpub-auto-encapsulating-code-with-modules
+
+https://survivejs.com/react/getting-started/setting-up-the-project/
+
+HER !!!!!!
+https://www.kirupa.com/react/setting_up_react_environment.htm
+Struktur !!!!!!!!
+https://reactjsnews.com/structuring-react-projects
+
+Redux
+https://medium.com/lexical-labs-engineering/redux-best-practices-64d59775802e
