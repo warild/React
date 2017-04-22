@@ -1,6 +1,11 @@
 
+<<<<<<< HEAD
+# On React 
+=======
 # On React - information 
+
 ##### test 2
+>>>>>>> 9188bdf06d0e762ee7b35d87cdd570bf12fc1774
 
 ### This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
