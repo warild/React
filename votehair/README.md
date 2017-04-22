@@ -1,4 +1,6 @@
-# On React - information on master
+
+# On React - information
+
 
 ### This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
